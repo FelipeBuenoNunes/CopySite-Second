@@ -1,0 +1,21 @@
+@font-face {
+    font-family: oswald;
+    src: url(https://fonts.gstatic.com/s/oswald/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2);
+}
+@font-face {
+    font-family: raleway;
+    src: url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2);
+}
+
+:root{
+    --font-title: clamp(5px, calc(1vw - 0.2rem), 11px) oswald,sans-serif;
+    --font-nav: clamp(8px, calc(2vw - 0.2rem), 14px) raleway,sans-serif;
+    --font-video: clamp(25px, calc(10vw - 1.5rem), 72px) oswald-medium,oswald,sans-serif;
+    --font-img: clamp(15px, calc(10vw - 2rem), 28px) oswald-medium,oswald,sans-serif;
+    --font-videom: clamp(8px, calc(5vw - 1.5rem), 20px) raleway,sans-serif;
+    --font-loja: clamp(8px, calc(5vw - 1.5rem), 18px) raleway,sans-serif;
+    --font-paragrafo: clamp(7px, calc(5vw - 1.5rem), 15px) raleway,sans-serif;
+    --font-h1: clamp(20px, calc(10vw - 1.5rem), 50px) oswald-medium,oswald,sans-serif;
+    --font-footer: clamp(6px, calc(5vw - 1.5rem), 14px) raleway,sans-serif;
+
+}
