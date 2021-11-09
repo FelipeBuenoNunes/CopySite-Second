@@ -51,6 +51,10 @@ header ul:last-child{
 header ul:last-child li{
     display: flex;
     margin-left: clamp(10px, calc(8vw - 3rem), 62.181px);
+    transition: 0.4s;
+}
+header ul:last-child li:hover{
+    color: #fc9823;
 }
 .icons{
     width: var(--margin-vinte);
@@ -117,6 +121,12 @@ header #facebook{
     width: var(--width-btn);
     height: var(--height-htn);
     font: clamp(5px, calc(5vw - 1.5rem), 15px) raleway,sans-serif;
+    color: #000769 !important;
+    transition: 0.4s;
+}
+#btn-comprar:hover{
+    background-color: #000769a2;
+    color: white !important;
 }
 /*------------------------------------------------*/
 
@@ -182,6 +192,11 @@ header #facebook{
     width: clamp(43px, calc(12vw - 1rem), 110px);
     height: var(--height-htn);
     background-color: #fc9823;
+    transition: 0.4s;
+}
+#btn-leia:hover{
+    background-color: #4c52a7;
+    color: white;
 }
 
 /*-------------------------------------------------------*/

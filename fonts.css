@@ -17,5 +17,4 @@
     --font-paragrafo: clamp(7px, calc(5vw - 1.5rem), 15px) raleway,sans-serif;
     --font-h1: clamp(20px, calc(10vw - 1.5rem), 50px) oswald-medium,oswald,sans-serif;
     --font-footer: clamp(6px, calc(5vw - 1.5rem), 14px) raleway,sans-serif;
-
 }
