@@ -83,6 +83,7 @@ header #facebook{
     min-height: 190px;
     padding: var(--padding-80);
     position: relative;
+    margin: 0 auto;
 }
 
 #textInVideo{
